@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/iti', function(req, res) {
-    res.send('<h2>Cloud Platform Development</h2><h3>Intake: 43</h3><h4>Author: Khaled gad</h4>')
+    res.send('<h2>Cloud Platform Development</h2><h3>Intake: 43</h3><h4>Author: Khaled gad</h4><h5>version: 2</h5>')
 });
 
 app.listen(3000, function () {
